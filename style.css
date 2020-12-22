@@ -69,13 +69,38 @@ a:hover {
     font-size: 20px;
 }
 
-
-.beta {
-    color: black;
+.block_container {
+    display: flex;
+    justify-content: center;
 }
 
 .genre {
-   display: inline-flex;
-   list-style-type: none;
-   padding-left: 400px;
+    display: flex;
+    list-style-type: none;
+    text-decoration: underline;
+    padding-left: 400px;
+    border-bottom: 4px solid #a0522d;
+}
+
+li {
+    padding-left: 20px;
+}
+
+h1 {
+    border-bottom: 4px solid #daa520;
+}
+
+h1:hover {
+    background-color: #daa520;
+    color: #ffffff;
+}
+
+.item {
+    color: #000000;
+    font-size: 15px;
+}
+
+.item:hover {
+    background-color: #a0522d;
+    color: #ffffff;
 }
